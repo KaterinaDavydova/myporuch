@@ -1,0 +1,501 @@
+body,
+html {
+    height: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.web-nav__container {
+    padding: 0 100px;
+}
+
+.web-nav__options {
+
+    ul {
+        display: flex;
+        gap: 20px;
+        margin: 50px 0;
+    }
+
+    ul li a {
+        color: #B0B0B0;
+        font-family: "Commissioner";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 30px;
+    }
+
+    ul li:not(:first-child) {
+        text-decoration: underline;
+        color: #B0B0B0;
+    }
+}
+
+.help_us {
+
+    .help_us__container {
+        padding: 0 100px;
+
+        .help_us__blocks {
+            margin: 50px 0;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        .help_us__bl {
+            border-radius: 20px;
+            background: #C9D4F0;
+            padding: 30px 36px 30px 30px;
+
+            span {
+                color: #FFF;
+                font-family: "Commissioner";
+                font-size: 50px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 35px;
+                text-transform: uppercase;
+            }
+
+            p {
+                margin-top: 20px;
+                color: #203170;
+                font-family: "Commissioner";
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 300;
+                line-height: 30px;
+            }
+        }
+
+        .help_us__btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 15px;
+            background: #203170;
+            color: #EFEEED;
+            font-family: "Commissioner";
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 18px;
+            height: 63px;
+            gap: 10px;
+            margin-bottom: 100px;
+        }
+    }
+}
+
+.achievements {
+
+    .achievements__container {
+
+        padding: 0 100px;
+        margin-bottom: 100px;
+
+        h2 {
+            margin-bottom: 50px;
+        }
+
+        .achievements__blocks {
+
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin-bottom: 30px;
+
+
+            .achievements__bl {
+
+                .achievements__img {
+                    margin-left: 35px;
+
+                    img {
+                        min-width: 10vw;
+                    }
+
+                }
+
+                display: flex;
+                gap: 25px;
+                justify-items: center;
+                justify-content: space-around;
+                align-items: center;
+                border-radius: 20px;
+                background: #FFF;
+                box-shadow: 0px -5px 7px 0px rgba(0, 0, 0, 0.15);
+                padding: 30px 0;
+            }
+
+            .achievements__info {
+
+                padding-right: 24px;
+
+                h3 {
+                    color: #203170;
+                    font-family: "Commissioner";
+                    font-size: 50px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 35px;
+                    text-transform: uppercase;
+                }
+
+                p {
+                    margin-top: 20px;
+                    color: #203170;
+                    font-family: "Commissioner";
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 300;
+                    line-height: 30px;
+                }
+            }
+        }
+
+        a {
+            border-radius: 10px;
+            background: #203170;
+            color: #EFEEED;
+            font-family: "Commissioner";
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 18px;
+            padding: 22px 72px;
+            max-width: 22vw;
+            height: 63px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+    }
+}
+
+.socials {
+
+    .socials__container {
+
+        padding: 0 100px;
+        margin-bottom: 100px;
+
+
+        .socials__content {
+            border-radius: 20px;
+            background: #203170;
+            padding: 60px 20px 60px 60px;
+            display: flex;
+            gap: 60px;
+            align-items: center;
+        }
+
+        .socials__title {
+            h2 {
+                color: #EFEBE5;
+                font-family: "Tenor Sans";
+                font-size: 40px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 50px;
+                margin-bottom: 30px;
+            }
+
+            p {
+                color: #EFEBE5;
+                font-family: "Commissioner";
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 30px;
+                margin-bottom: 54px;
+            }
+
+            .socials__icons {
+                display: flex;
+                gap: 30px;
+            }
+        }
+    }
+}
+
+.message {
+
+    .message__container {
+        position: relative;
+        padding-bottom: 100px;
+        margin-bottom: -100px;
+        z-index: -2;
+        border-radius: 50px 50px 0px 0px;
+        background: #FFF;
+        box-shadow: 0px -5px 7px 0px rgba(0, 0, 0, 0.15);
+
+        .message__content {
+
+            position: relative;
+
+            .message__title {
+
+                padding: 100px;
+
+                h2 {
+                    color: #203170;
+                    font-family: "Tenor Sans";
+                    font-size: 40px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 50px;
+                    margin-bottom: 20px;
+                    max-width: 600px;
+                }
+
+                >p {
+                    color: #203170;
+                    font-family: "Commissioner";
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 300;
+                    line-height: 30px;
+                    margin-bottom: 50px;
+
+                }
+
+                .message__email {
+                    p {
+                        color: #203170;
+                        font-family: "Commissioner";
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 30px;
+                        text-transform: uppercase;
+                    }
+
+                    a {
+                        color: #203170;
+                        font-family: "Commissioner";
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 30px;
+                        text-decoration-line: underline;
+                        text-transform: uppercase;
+                    }
+
+                    img {
+                        position: absolute;
+                    }
+
+                    .message__link {
+                        margin-left: 83px;
+                    }
+                }
+            }
+
+            >img {
+                position: absolute;
+                right: 150px;
+                top: 50%;
+                transform: translate(0, -50%);
+                width: 31vw;
+            }
+        }
+    }
+}
+
+@media (min-width: 769px) {
+    .help_us__btn {
+        visibility: hidden;
+    }
+
+    #socials__dark-sun {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .button-light {
+        display: none;
+    }
+
+    .web-nav__container {
+        padding: 0 25px;
+    }
+
+    .help_us {
+        .help_us__container {
+            padding: 0 25px;
+
+            .help_us__blocks {
+                grid-template-columns: 1fr;
+                gap: 10px;
+                margin: 30px 0;
+
+                .help_us__bl {
+
+                    span {
+                        font-size: 35px;
+                    }
+
+                    p {
+                        font-size: 16px;
+                        font-weight: 300;
+                        line-height: 25px;
+                        margin-top: 5px;
+                    }
+                }
+            }
+
+            .help_us__btn {
+                max-width: 86vw;
+            }
+        }
+    }
+
+    .achievements {
+        .achievements__container {
+            padding: 0 25px;
+
+            .achievements__blocks {
+                grid-template-columns: 1fr;
+                gap: 30px;
+
+                .achievements__bl {
+                    position: relative;
+
+                    .achievements__img {
+                        display: flex;
+                        position: absolute;
+                        align-items: center;
+                        justify-content: center;
+                        border-radius: 1000px;
+                        background: #C9D4F0;
+                        box-shadow: 0px -2px 5px 0px rgba(0, 0, 0, 0.15);
+                        right: 20px;
+                        top: -20px;
+                        width: 100px;
+                        height: 100px;
+                        margin-right: 30px;
+
+                        & img {
+                            width: 80%;
+                        }
+                    }
+
+                    .achievements__info {
+
+                        h3 {
+                            font-size: 60px;
+                        }
+
+                        p {
+                            font-size: 16px;
+                            line-height: 25px;
+                        }
+                    }
+                }
+            }
+
+            a {
+                max-width: 86vw;
+                border-radius: 15px;
+                background: #203170;
+            }
+        }
+    }
+
+    .socials {
+        .socials__container {
+            padding: 0 26px;
+
+            .socials__content {
+                padding: 48px 38px 54px 30px;
+                flex-direction: column;
+                gap: 34px;
+
+                #socials__sun {
+                    display: none;
+                }
+            }
+
+            .socials__title {
+                h2 {
+                    font-size: 25px;
+                    line-height: 30px;
+                }
+
+                p {
+                    font-size: 16px;
+                    line-height: 25px;
+                    margin-bottom: 50px;
+                }
+            }
+        }
+    }
+
+    .message {
+        .message__container {
+            .message__content {
+                padding-bottom: 400px;
+
+                .message__title {
+
+                    padding: 50px 32px 25px 25px;
+
+                    h2 {
+                        color: #203170;
+                        font-family: "Tenor Sans";
+                        font-size: 25px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 30px;
+                    }
+
+                    >p {
+                        color: #203170;
+                        font-family: "Commissioner";
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 300;
+                        line-height: 25px;
+                        margin-bottom: 30px;
+                    }
+
+                    .message__email {
+
+                        img {
+                            width: 31px;
+                        }
+
+                        .message__link {
+                            margin-left: 0;
+
+                            p {
+                                font-size: 17px;
+                                line-height: 25px;
+                                margin-left: 40px;
+
+                            }
+
+                            a {
+                                font-size: 17px;
+                                line-height: 25px;
+                            }
+                        }
+                    }
+                }
+
+                >img {
+                    top: 520px;
+                    right: 70px;
+                    width: 72vw;
+                }
+            }
+        }
+    }
+
+
+}

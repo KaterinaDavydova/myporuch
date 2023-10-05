@@ -1,0 +1,369 @@
+.archive { 
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+.post-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px 20px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.post-item {
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 5px 7px 0px rgba(0, 0, 0, 0.15);
+    padding: 10px 10px 30px 10px;
+    position: relative;
+
+    .post-cover {
+        width: 100%;
+        height: 21vw;
+        border-radius: 20px;
+        overflow: hidden;
+        position: inherit;
+        z-index: 2;
+
+        img { 
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+        }
+
+    
+    }
+    .post-info { 
+        position: inherit;
+        border-radius: 10000px;
+        background: #203170;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        margin-top: -23px;
+        margin-left: auto;
+        margin-right: auto;
+        z-index: 10;
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 45px;
+        padding-left: 20px;
+
+        .category a { 
+            color: #EFEEED;
+            font-size: 16px;
+            font-family: 'Commissioner';
+            font-style: normal;
+            font-weight: 400;
+            line-height: 18px;
+           
+        }
+        .date  { 
+            color: #A8A8A8;
+            font-size: 16px;
+            font-family: 'Commissioner';
+            font-style: normal;
+            font-weight: 300;
+            line-height: 30px;
+
+            border-radius: 10000px;
+            padding-right:20px;
+            padding-left: 20px;
+            height: 100%;
+            background: #FFF;
+
+            p {
+                display: flex;
+                align-items: center;
+                gap:10px;
+                height: 100%;
+                justify-content: center;
+
+                &:before { 
+                    content: url(../images/calendar.svg);
+                    display: inline-block;
+                    position: relative;
+                    bottom: 5px;
+                    margin-right: 10px;
+                    height: 25px;
+                    width: 22px;
+                }
+            }
+            
+
+            
+        }
+    }
+    .title {
+        padding: 0 20px 0 20px;
+        color: #203170;
+        h4 { 
+            font-family: 'Commissioner';
+            font-style: normal;
+            font-size: 24px;
+            margin-top: 30px;
+            line-height: 35px;
+            font-weight: 500;
+            text-transform: uppercase;
+        }
+        p { 
+            font-family: 'Commissioner';
+            font-style: normal;
+            margin-top: 10px;
+            font-size: 18px;
+            line-height: 30px;
+            font-weight: 300;
+        }
+    }
+
+}
+
+.title {
+}
+.decription {
+
+}
+
+.pagination {
+    .nav-links {
+        display: flex;
+        gap: 15px;
+        align-items: center;
+    }
+
+    .page-numbers {
+        border-radius: 10px;
+        background: #FFF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        height: 50px;
+        color: #203170;
+        text-align: center;
+        font-size: 25px;
+        font-family: 'Commissioner';
+        font-style: normal;
+        font-weight: 500;
+        line-height: 40px;
+        text-transform: uppercase;
+    }
+
+    .current {
+        background: #203170;
+        color: #FFF;
+    
+    }
+}
+
+.category {
+
+    .category-name a { 
+        margin-bottom: 30px;
+        max-width: 400px;
+        font-size: 60px;
+        line-height: 55px;
+    }
+
+    p { 
+            font-size: 25px;
+            font-weight: 500;
+            line-height: 40px;
+            text-transform: uppercase;
+            margin-bottom: 8px;
+    }
+
+    .category-list {
+        max-width: 400px;
+        margin-bottom: 60px;
+
+        li { 
+          padding: 20px 0 7px 0;
+          display: flex;
+          justify-content: space-between;
+          border-bottom: 1px solid #203170;
+          list-style: none;
+          
+      
+          p { 
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 30px;
+          }
+          .icon {
+            border-radius: 10px;
+            width: 35px  ;
+            min-height: 35px;
+            min-width: 35px;
+            height: 35px ;
+            background-color: #F0F0F0;
+            position: relative;
+          }
+          .icon::after {
+            content: " ";
+            position: absolute;
+            display: block;
+            background-color: #203170;
+            height: 2px;
+            margin-top: -1px;
+            top: 50%;
+            left: 11px;
+            right: 11px;
+            z-index: 9;
+          }
+          .icon::before {
+            content: " ";
+            position: absolute;
+            display: block;
+            background-color: #203170;
+            width: 2px;
+            margin-left: -1px;
+            left: 50%;
+            top: 10px;
+            bottom: 11px;
+            z-index: 9;
+          }
+        }
+        
+      }
+
+}
+
+
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+
+}
+
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    .post-items {
+        grid-template-columns: 1fr 1fr ;
+
+    }
+    
+}
+
+
+/* Portrait tablets and small desktops */
+@media (min-width: 769px) {
+   .archive .button-dark { 
+        display: none;
+    }
+    
+}
+
+
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 768px) {
+    .post-items {
+        grid-template-columns: 1fr  1fr;
+        gap:  20px;
+        margin-bottom: 60px;
+    }
+    
+    .post-item {
+        padding: 20px 20px 30px 20px;
+    
+        .post-cover {
+            min-height: 213px;
+            border-radius: 14px;
+        }
+        .post-info { 
+            margin-top: -26px;
+            width: 110%;
+            height: 40px;
+            left: 50%;
+            transform: translate(-50%, 0) ;
+    
+
+            .category { 
+                font-size: 14px;
+                line-height: 25px;
+            }
+
+            .date p { 
+                font-size: 14px;
+                line-height: 30px;
+                gap:5px;
+    
+                &:before { 
+                    content: url(../images/calendar.svg);
+                    bottom: 5px;
+                    height: 18px;
+                    width: 16px;
+                }
+            }
+        }
+        .title {
+            padding: 0 2px 0 2px;
+            color: #203170;
+
+            h4 { 
+                font-size: 17px;
+                line-height: 25px;
+            }
+            p { 
+                margin-top: 20px;
+                font-size: 14px;
+                line-height: 22px;
+            }
+        }
+    
+    }
+
+    .pagination { 
+        display: none;
+    }
+.category { 
+
+    .category-name { 
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    p { 
+            margin-bottom: 5px;
+    }
+
+    .category-list {
+        li { 
+        padding: 15px 0 10px 0;
+        align-items: end;
+
+        p { 
+            font-size: 14px;
+            font-family: 'Commissioner';
+            
+        }
+        &:last-child { 
+            letter-spacing: -0.35px;
+        }
+
+        }
+    }
+}
+   
+}
+
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+    .post-items {
+        grid-template-columns: 1fr ;
+        gap:  20px;
+        margin-bottom: 60px;
+    }
+    
+}
+
+/* Iphone 5 */
+@media (max-width: 320px) {
+
+}
