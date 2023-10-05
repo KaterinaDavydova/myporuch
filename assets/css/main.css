@@ -3090,7 +3090,7 @@ html {
   padding: 0 100px;
 }
 .help_us .help_us__container .help_us__blocks {
-  margin: 50px 0;
+  margin: 50px 0 100px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
@@ -3133,6 +3133,7 @@ html {
   height: 63px;
   gap: 10px;
   margin-bottom: 100px;
+  display: none;
 }
 
 .achievements .achievements__container {
@@ -3151,8 +3152,6 @@ html {
 .achievements .achievements__container .achievements__blocks .achievements__bl {
   display: flex;
   gap: 25px;
-  justify-items: center;
-  justify-content: space-around;
   align-items: center;
   border-radius: 20px;
   background: #FFF;
@@ -3196,7 +3195,7 @@ html {
   font-weight: 400;
   line-height: 18px;
   padding: 22px 72px;
-  max-width: 22vw;
+  max-width: 294px;
   height: 63px;
   display: flex;
   align-items: center;
@@ -3233,6 +3232,7 @@ html {
   font-weight: 500;
   line-height: 30px;
   margin-bottom: 54px;
+  max-width: 470px;
 }
 .socials .socials__container .socials__title .socials__icons {
   display: flex;
@@ -3243,7 +3243,6 @@ html {
   position: relative;
   padding-bottom: 100px;
   margin-bottom: -100px;
-  z-index: -2;
   border-radius: 50px 50px 0px 0px;
   background: #FFF;
   box-shadow: 0px -5px 7px 0px rgba(0, 0, 0, 0.15);
@@ -3298,14 +3297,30 @@ html {
 .message .message__container .message__content .message__title .message__email .message__link {
   margin-left: 83px;
 }
-.message .message__container .message__content > img {
+.message .message__container > img {
   position: absolute;
   right: 150px;
-  top: 50%;
+  top: 45%;
   transform: translate(0, -50%);
   width: 31vw;
 }
 
+.footer {
+  position: relative;
+  z-index: 2;
+}
+
+@media (width: 1024px) {
+  .message .message__container > img {
+    max-width: 306px;
+    right: 0;
+    left: 65%;
+    position: absolute;
+    top: 45%;
+    transform: translate(0, -50%);
+    width: 31vw;
+  }
+}
 @media (min-width: 769px) {
   .help_us__btn {
     visibility: hidden;
@@ -3350,6 +3365,7 @@ html {
   }
   .achievements .achievements__container .achievements__blocks .achievements__bl {
     position: relative;
+    padding: 50px 30px 30px;
   }
   .achievements .achievements__container .achievements__blocks .achievements__bl .achievements__img {
     display: flex;
@@ -3359,11 +3375,11 @@ html {
     border-radius: 1000px;
     background: #C9D4F0;
     box-shadow: 0px -2px 5px 0px rgba(0, 0, 0, 0.15);
-    right: 20px;
+    right: 30px;
     top: -20px;
     width: 100px;
     height: 100px;
-    margin-right: 30px;
+    margin: 0;
   }
   .achievements .achievements__container .achievements__blocks .achievements__bl .achievements__img img {
     width: 80%;
@@ -3376,7 +3392,7 @@ html {
     line-height: 25px;
   }
   .achievements .achievements__container a {
-    max-width: 86vw;
+    max-width: 100%;
     border-radius: 15px;
     background: #203170;
   }
@@ -3400,11 +3416,11 @@ html {
     line-height: 25px;
     margin-bottom: 50px;
   }
-  .message .message__container .message__content {
-    padding-bottom: 400px;
-  }
   .message .message__container .message__content .message__title {
-    padding: 50px 32px 25px 25px;
+    padding: 50px 32px 50px 25px;
+    border-radius: 30px 30px 0px 0px;
+    background: #FFF;
+    box-shadow: 0px -5px 7px 0px rgba(0, 0, 0, 0.15);
   }
   .message .message__container .message__content .message__title h2 {
     color: #203170;
@@ -3438,9 +3454,13 @@ html {
     font-size: 17px;
     line-height: 25px;
   }
-  .message .message__container .message__content > img {
-    top: 520px;
-    right: 70px;
+  .message .message__container > img {
+    position: relative;
     width: 72vw;
+    max-width: 306px;
+    right: 0;
+    transform: translate(-50%, 0%);
+    left: 50%;
+    margin-bottom: 100px;
   }
 }/*# sourceMappingURL=main.css.map */
