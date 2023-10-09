@@ -24,7 +24,7 @@ function auto_scripts() {
     // Script and css for page
 
         // css
-        wp_enqueue_style( 'main_css', get_template_directory_uri().'/assets/css/main-1.css', 
+        wp_enqueue_style( 'main_css', get_template_directory_uri().'/assets/css/main.css', 
         array(), null );
 
         // js
