@@ -24,7 +24,11 @@
                                                             <a href="<?php the_permalink() ?>"> <?php echo the_post_thumbnail();?> </a> 
                                                         </div>
                                                         <div class="post-info">
-                                                            <p class="category"><?php the_tags('', '','');?></p>
+                                                            <?php if (is_tag( 'Психологія' )) { ?>
+                                                                <p class="category color-browm"><?php the_tags('', '','');?></p>
+                                                            <?php } else { ?>
+                                                                <p class="category"><?php the_tags('', '','');?></p>
+                                                            <?php } ?>
                                                             <div class="date"><p><?php echo get_the_date();?></p></div>
                                                         </div>
                                                         <div class="title">

@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Myporuch</title>
 
+    <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/css/main.css?ver=<?=time();?>">
+
     <?php wp_head();?>
     <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-990ZBQRHN1"></script>
@@ -23,10 +25,12 @@
         <div class="wrapper" id="up">
 
         <?php 
-        if ( is_page_template( ['home.php', 'join-team.php']) ) { ?>
+        if ( is_page_template( ['home.php']) ) { ?>
             <img class="back-logo" src="<?php echo get_template_directory_uri();?>/assets/images/m.svg" alt="m">
+        <?php } else if ( is_page_template( [ 'join-team.php']) ) { ?>
+            <img class="back-logo small" src="<?php echo get_template_directory_uri();?>/assets/images/m.svg" alt="m">
         <?php } else { ?>
-            
+
         <?php } ?>
             <header class="header" id="header">
                 <div class="container">

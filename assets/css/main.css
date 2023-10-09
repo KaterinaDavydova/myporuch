@@ -96,6 +96,10 @@ a {
   width: 68vw;
   z-index: -1;
 }
+.back-logo.small {
+  max-width: 724px;
+  top: 174px;
+}
 
 h1,
 h2,
@@ -1066,7 +1070,7 @@ p {
   position: absolute;
   left: 0;
   top: 0;
-  height: auto;
+  height: 100%;
   z-index: 0;
 }
 .team-bottom .social {
@@ -1149,6 +1153,10 @@ p {
 }
 .reports .button {
   margin-top: 30px;
+}
+.reports .button:hover {
+  background-color: #ffffff;
+  color: #203170;
 }
 .reports .inner {
   background: #203170;
@@ -1729,8 +1737,8 @@ p {
   .team-bottom .decor {
     position: absolute;
     left: 0px;
-    top: inherit;
-    bottom: -88px;
+    top: 0;
+    bottom: inherit;
     height: auto;
     z-index: 0;
     width: 100vw;

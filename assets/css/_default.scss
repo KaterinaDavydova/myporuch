@@ -91,6 +91,11 @@ a {
   right: 2vw;
   width: 68vw;
   z-index: -1;
+
+  &.small { 
+    max-width: 724px;
+    top: 174px;
+  }
 }
 h1,
 h2,
