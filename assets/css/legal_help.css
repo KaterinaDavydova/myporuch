@@ -1,0 +1,184 @@
+body,
+html {
+  height: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.directive-bl__container .directive-bl__items .directive-bl__item a {
+  border-radius: 10px;
+  background: #EFEBE5;
+  color: #203170;
+  text-align: center;
+  font-family: "Commissioner";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  width: 256px;
+  max-width: 294px;
+  height: 63px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.expert-bl .expert-bl__container .expert-bl__title a, .primary-bl__container .primary-bl__title a {
+  color: #EFEEED;
+  font-family: "Commissioner";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  width: 256px;
+  max-width: 294px;
+  height: 63px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #203170;
+}
+
+.primary-bl__container {
+  padding: 0 100px;
+}
+.primary-bl__container .primary-bl__title {
+  padding: 100px 0 200px;
+}
+.primary-bl__container .primary-bl__title h2 {
+  color: #203170;
+  font-family: "Tenor Sans";
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 55px;
+  margin-bottom: 50px;
+}
+.legal-help {
+  padding: 0 50px;
+}
+.legal-help .legal-help__container {
+  border-radius: 20px;
+  background: #FFF;
+  padding: 60px 55px 50px 50px;
+  margin-bottom: 90px;
+}
+.legal-help .legal-help__container .legal-help__info .legal-help__title h2 {
+  margin-bottom: 50px;
+}
+.legal-help .legal-help__container .legal-help__info .legal-help__items {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 17px;
+}
+.legal-help .legal-help__container .legal-help__info .legal-help__items .legal-help__item {
+  border-radius: 20px;
+  background: #EFEBE5;
+  padding: 0 30px 50px;
+}
+.legal-help .legal-help__container .legal-help__info .legal-help__items .legal-help__item h3 {
+  color: #203170;
+  font-family: "Commissioner";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 35px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.legal-help .legal-help__container .legal-help__info .legal-help__items .legal-help__item ul {
+  color: #203170;
+  font-family: "Commissioner";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 30px;
+}
+.legal-help .legal-help__container .legal-help__info .legal-help__items .legal-help__item li {
+  list-style-type: disc;
+  margin-left: 30px;
+}
+.legal-help .legal-help__container .legal-help__info .legal-help__items .legal-help__item li p {
+  color: #203170;
+  font-family: "Commissioner";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 25px;
+}
+
+.expert-bl {
+  padding: 0 100px;
+}
+.expert-bl .expert-bl__container {
+  border-radius: 20px;
+  background: #FFF;
+  padding: 50px 55px 50px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 90px;
+}
+.expert-bl .expert-bl__container .expert-bl__title h2 {
+  color: #203170;
+  font-family: "Tenor Sans";
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 55px;
+  margin-bottom: 20px;
+}
+.expert-bl .expert-bl__container .expert-bl__title p {
+  color: #B0B0B0;
+  font-family: "Commissioner";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 30px;
+  margin-bottom: 50px;
+}
+.directive-bl__container {
+  padding: 0 100px;
+}
+.directive-bl__container h2 {
+  color: #203170;
+  font-family: "Tenor Sans";
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 55px;
+  margin-bottom: 50px;
+}
+.directive-bl__container .directive-bl__items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-bottom: 90px;
+}
+.directive-bl__container .directive-bl__items .directive-bl__item {
+  border-radius: 20px;
+  background: #203170;
+  padding: 40px 30px 30px;
+}
+.directive-bl__container .directive-bl__items .directive-bl__item span {
+  color: #FFF;
+  font-family: "Commissioner";
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 35px;
+  text-transform: uppercase;
+}
+.directive-bl__container .directive-bl__items .directive-bl__item p {
+  color: #FFF;
+  font-family: "Commissioner";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 30px;
+  margin-top: 40px;
+}
+.directive-bl__container .directive-bl__items .directive-bl__item a {
+  margin-top: 20px;
+}/*# sourceMappingURL=legal_help.css.map */

@@ -1,0 +1,225 @@
+body,
+html {
+  height: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.expert-info-bl .expert-info-bl__container .expert-info-bl__title a, .help-info-bl .help-info-bl__container .help-info-bl__items .help-info-bl__item a, .main-bl__container .main-bl__hedline a {
+  color: #EFEEED;
+  font-family: "Commissioner";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  width: 256px;
+  max-width: 294px;
+  height: 63px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #203170;
+}
+
+.main-bl__container {
+  padding: 0 100px;
+}
+.main-bl__container .main-bl__hedline {
+  padding: 100px 0 200px;
+}
+.main-bl__container .main-bl__hedline h1 {
+  color: #203170;
+  font-family: "Tenor Sans";
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 55px;
+  margin-bottom: 50px;
+}
+.text-bl {
+  padding: 0 100px;
+  margin-bottom: 90px;
+}
+.text-bl .text-bl__container {
+  border-radius: 20px;
+  background: #203170;
+  padding: 60px 60px 60px 420px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+}
+.text-bl .text-bl__container img {
+  position: absolute;
+  top: 0;
+  left: -30px;
+  width: 30vw;
+  max-inline-size: 145%;
+  max-block-size: 145%;
+}
+.text-bl .text-bl__container div {
+  position: relative;
+  z-index: 2;
+}
+.text-bl .text-bl__container div h2 {
+  color: #EFEBE5;
+  font-family: "Tenor Sans";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 50px;
+  margin-bottom: 20px;
+}
+.text-bl .text-bl__container div p {
+  color: #FFF;
+  font-family: "Commissioner";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 30px;
+  width: 621px;
+  margin-bottom: 15px;
+}
+.text-bl .text-bl__container div span {
+  color: #FFF;
+  font-family: "Commissioner";
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 600;
+  line-height: 30px;
+}
+
+.help-info-bl {
+  padding: 0 50px;
+  margin-bottom: 90px;
+}
+.help-info-bl .help-info-bl__container {
+  border-radius: 20px;
+  background: #FFF;
+  padding: 90px 50px 50px;
+}
+.help-info-bl .help-info-bl__container h2 {
+  color: #203170;
+  font-family: "Tenor Sans";
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 55px;
+  margin-bottom: 50px;
+}
+.help-info-bl .help-info-bl__container .help-info-bl__items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.help-info-bl .help-info-bl__container .help-info-bl__items .help-info-bl__item {
+  border-radius: 20px;
+  background: #C9D4F0;
+  padding: 40px 30px 30px;
+}
+.help-info-bl .help-info-bl__container .help-info-bl__items .help-info-bl__item span {
+  color: #FFF;
+  font-family: "Commissioner";
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 35px;
+  text-transform: uppercase;
+}
+.help-info-bl .help-info-bl__container .help-info-bl__items .help-info-bl__item p {
+  color: #203170;
+  font-family: "Commissioner";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 30px;
+  margin-top: 40px;
+}
+.help-info-bl .help-info-bl__container .help-info-bl__items .help-info-bl__item a {
+  margin-top: 20px;
+}
+
+.expert-info-bl {
+  padding: 0 100px;
+  margin-bottom: 90px;
+}
+.expert-info-bl .expert-info-bl__container {
+  border-radius: 20px;
+  background: #FFF;
+  padding: 50px 55px;
+  display: flex;
+  gap: 145px;
+  overflow: hidden;
+}
+.expert-info-bl .expert-info-bl__container .expert-info-bl__title h2 {
+  color: #203170;
+  font-family: "Tenor Sans";
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 55px;
+  margin-bottom: 100px;
+}
+.expert-info-bl .expert-info-bl__container .expert-info-bl__slider {
+  width: 594px;
+  height: 328px;
+}
+.expert-info-bl .expert-info-bl__container .expert-info-bl__slider .slick-list .slick-track {
+  gap: 40px;
+}
+.expert-info-bl .expert-info-bl__container .expert-info-bl__slider .slick-arrow {
+  z-index: 2;
+  background: #F0F0F0;
+}
+.expert-info-bl .expert-info-bl__container .expert-info-bl__slider .slick-arrow.slick-prev {
+  background-image: url(../images/prev.svg);
+  top: 279px;
+  left: 325px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.expert-info-bl .expert-info-bl__container .expert-info-bl__slider .slick-arrow.slick-prev:before {
+  display: none;
+}
+.expert-info-bl .expert-info-bl__container .expert-info-bl__slider .slick-arrow.slick-next {
+  background-image: url(../images/next.svg);
+  right: 190px;
+  top: 279px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.expert-info-bl .expert-info-bl__container .expert-info-bl__slider .slick-arrow.slick-next:before {
+  display: none;
+}
+.expert-info-bl .expert-info-bl__container .expert-info-bl__slider .expert-info__profile {
+  border-radius: 20px;
+  border: 1px solid #CCC0AF;
+  padding: 20px;
+  display: flex;
+  gap: 30px;
+  width: 594px;
+  height: 328px;
+}
+.expert-info-bl .expert-info-bl__container .expert-info-bl__slider .expert-info__profile .expert-info-bl__photo img {
+  width: 19vw;
+}
+.expert-info-bl .expert-info-bl__container .expert-info-bl__slider .expert-info__profile .expert-info-bl__bio h3 {
+  color: #203170;
+  font-family: "Commissioner";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+.expert-info-bl .expert-info-bl__container .expert-info-bl__slider .expert-info__profile .expert-info-bl__bio p {
+  color: #4D4D4D;
+  font-family: "Commissioner";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 30px;
+}/*# sourceMappingURL=psycho_help.css.map */

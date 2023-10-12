@@ -1,0 +1,140 @@
+body,
+html {
+  height: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.total-block .total-block_container .total-block__info a {
+  border-radius: 10px;
+  background: #EFEBE5;
+  color: #203170;
+  text-align: center;
+  font-family: "Commissioner";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  width: 256px;
+  max-width: 294px;
+  height: 63px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.get-help .get-help__container .get-help__blocks .get-help__bl a, .head-bl__container .head-bl__headline a {
+  color: #EFEEED;
+  font-family: "Commissioner";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  width: 256px;
+  max-width: 294px;
+  height: 63px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #203170;
+}
+
+.head-bl__container {
+  padding: 185px 100px 150px;
+}
+.head-bl__container .head-bl__headline h2 {
+  color: #203170;
+  font-family: "Tenor Sans";
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 55px;
+  margin-bottom: 50px;
+}
+.get-help {
+  padding: 0 50px;
+  margin-bottom: 90px;
+}
+.get-help .get-help__container {
+  border-radius: 20px;
+  background: #FFF;
+  padding: 60px 50px 50px;
+}
+.get-help .get-help__container h2 {
+  color: #203170;
+  font-family: "Tenor Sans";
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 55px;
+  margin-bottom: 50px;
+}
+.get-help .get-help__container .get-help__blocks {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.get-help .get-help__container .get-help__blocks .get-help__bl {
+  border-radius: 20px;
+  background: #C9D4F0;
+  padding: 40px 36px 40px 30px;
+}
+.get-help .get-help__container .get-help__blocks .get-help__bl span {
+  color: #FFF;
+  font-family: "Commissioner";
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 35px;
+  text-transform: uppercase;
+}
+.get-help .get-help__container .get-help__blocks .get-help__bl p {
+  color: #203170;
+  font-family: "Commissioner";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 30px;
+  margin-top: 20px;
+}
+.get-help .get-help__container .get-help__blocks .get-help__bl ul {
+  margin-left: 30px;
+}
+.get-help .get-help__container .get-help__blocks .get-help__bl li {
+  list-style-type: disc;
+  color: #203170;
+  font-family: "Commissioner";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 30px;
+}
+.get-help .get-help__container .get-help__blocks .get-help__bl a {
+  margin-top: 20px;
+}
+
+.total-block {
+  padding: 0 100px;
+  margin-bottom: 100px;
+}
+.total-block .total-block_container {
+  border-radius: 20px;
+  background: #203170;
+  border-radius: 20px;
+  background: #203170;
+  padding: 60px 48px 60px 60px;
+  display: flex;
+  gap: 60px;
+  align-items: center;
+}
+.total-block .total-block_container .total-block__info h2 {
+  color: #EFEBE5;
+  font-family: "Tenor Sans";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 50px;
+  margin-bottom: 50px;
+}/*# sourceMappingURL=financial_help.css.map */
